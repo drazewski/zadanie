@@ -1,0 +1,338 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 17, ../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/*MEDIA QUERIES SIZES*/
+/* line 1, ../sass/base/_fonts.scss */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* line 6, ../sass/base/_fonts.scss */
+.higlight-text {
+  font-weight: bold;
+}
+
+/* line 1, ../sass/layout/_body.scss */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+/* line 4, ../sass/layout/_body.scss */
+body .container {
+  max-width: 1082px;
+}
+
+/*MEDIA QUERIES SIZES*/
+/* line 3, ../sass/layout/_header.scss */
+header {
+  font-family: 'Open Sans', sans-serif;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  color: #fff;
+}
+/* line 10, ../sass/layout/_header.scss */
+header .header-top {
+  height: 34px;
+  font-size: 12px;
+  line-height: 34px;
+  background-color: #bb9c40;
+  width: 100%;
+}
+/* line 19, ../sass/layout/_header.scss */
+header .header-top .header-top-content i {
+  padding: 3px;
+}
+/* line 23, ../sass/layout/_header.scss */
+header .header-top .header-top-content .span {
+  padding: 10px;
+}
+/* line 28, ../sass/layout/_header.scss */
+header .header-top .header-top-content .header-top-content-icons {
+  display: inline;
+  padding: 0 10px;
+}
+/* line 32, ../sass/layout/_header.scss */
+header .header-top .header-top-content .header-top-content-basket {
+  float: right;
+}
+/* line 37, ../sass/layout/_header.scss */
+header .header {
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 87px;
+  font-size: 14px;
+  line-height: 87px;
+}
+/* line 43, ../sass/layout/_header.scss */
+header .header .logo {
+  float: left;
+}
+/* line 46, ../sass/layout/_header.scss */
+header .header .logo img {
+  vertical-align: middle;
+}
+/* line 51, ../sass/layout/_header.scss */
+header .header .header-nav {
+  float: right;
+}
+/* line 54, ../sass/layout/_header.scss */
+header .header .header-nav li {
+  display: inline;
+  padding: 0 10px;
+  font-weight: bold;
+}
+/* line 59, ../sass/layout/_header.scss */
+header .header .header-nav li a:hover {
+  color: #bb9c40;
+  text-decoration: none;
+}
+/* line 65, ../sass/layout/_header.scss */
+header .header .header-nav li.active {
+  color: #bb9c40;
+}
+
+/* line 1, ../sass/layout/_slider.scss */
+.slider {
+  display: table;
+  background-image: url(../img/slider.jpg);
+  background-size: cover;
+  height: 715px;
+  width: 100%;
+}
+/* line 8, ../sass/layout/_slider.scss */
+.slider .slider-chevron {
+  display: table-cell;
+  width: 100%;
+  vertical-align: middle;
+  color: #fff;
+  font-size: 50px;
+  padding: 0 20px;
+}
+/* line 16, ../sass/layout/_slider.scss */
+.slider .slider-chevron .fa-chevron-left {
+  float: left;
+}
+/* line 20, ../sass/layout/_slider.scss */
+.slider .slider-chevron .fa-chevron-right {
+  float: right;
+}
+
+/* line 1, ../sass/layout/_top-section.scss */
+.top-section {
+  background-color: #3f3f3f;
+}
+/* line 7, ../sass/layout/_top-section.scss */
+.top-section .top-section-content .top-section-content-text {
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 36px;
+  color: white;
+  text-align: center;
+  padding: 100px 0;
+}
+/* line 16, ../sass/layout/_top-section.scss */
+.top-section .top-section-content .top-section-content-aside {
+  padding: 100px 0;
+  text-align: center;
+}
+/* line 20, ../sass/layout/_top-section.scss */
+.top-section .top-section-content .top-section-content-aside p.top-section-content-number {
+  color: #bb9c40;
+  font-size: 70px;
+}
+/* line 26, ../sass/layout/_top-section.scss */
+.top-section .top-section-content .top-section-content-aside p.top-section-content-subnumber {
+  text-transform: uppercase;
+  color: white;
+  padding: 15px;
+  font-weight: bold;
+}
+
+/* line 1, ../sass/layout/_main-section.scss */
+section.main {
+  background-color: #fff;
+}
+/* line 4, ../sass/layout/_main-section.scss */
+section.main .main-content-wrapper {
+  padding: 100px 0;
+}
+/* line 7, ../sass/layout/_main-section.scss */
+section.main .main-content-wrapper h2 {
+  font-size: 30px;
+  line-height: 36px;
+  padding-bottom: 50px;
+}
+/* line 13, ../sass/layout/_main-section.scss */
+section.main .main-content-wrapper p {
+  line-height: 20px;
+  font-weight: 300;
+}
+/* line 19, ../sass/layout/_main-section.scss */
+section.main .main-content-itemlist {
+  padding: 100px 20px;
+  width: 80%;
+  margin: auto;
+}
+/* line 24, ../sass/layout/_main-section.scss */
+section.main .main-content-itemlist ul {
+  list-style: inherit;
+}
+/* line 27, ../sass/layout/_main-section.scss */
+section.main .main-content-itemlist ul li {
+  padding: 0 5px;
+}
+
+/* line 1, ../sass/layout/_footer.scss */
+footer {
+  background: #333333;
+  padding: 40px 20px;
+  clear: both;
+  overflow: hidden;
+  color: #fff;
+  font-family: "Open Sans", "Arial";
+}
+@media (min-width: 1085px) {
+  /* line 1, ../sass/layout/_footer.scss */
+  footer {
+    padding: 70px 0 40px;
+  }
+}
+/* line 11, ../sass/layout/_footer.scss */
+footer .footer-item {
+  margin-bottom: 20px;
+}
+@media (min-width: 768px) {
+  /* line 11, ../sass/layout/_footer.scss */
+  footer .footer-item {
+    width: 48%;
+    padding-right: 2%;
+    float: left;
+  }
+}
+@media (min-width: 1024px) {
+  /* line 11, ../sass/layout/_footer.scss */
+  footer .footer-item {
+    width: 22%;
+  }
+}
+@media (min-width: 1024px) {
+  /* line 21, ../sass/layout/_footer.scss */
+  footer .footer-item:last-child {
+    padding-right: 0;
+    float: right;
+  }
+}
+/* line 28, ../sass/layout/_footer.scss */
+footer .footer-item.is-poits li {
+  padding-left: 10px;
+  position: relative;
+}
+/* line 31, ../sass/layout/_footer.scss */
+footer .footer-item.is-poits li:after {
+  position: absolute;
+  bottom: 12px;
+  left: 0;
+  background: #72a4a9;
+  content: "";
+  display: block;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+}
+/* line 44, ../sass/layout/_footer.scss */
+footer .footer-item ul {
+  list-style: none;
+}
+/* line 47, ../sass/layout/_footer.scss */
+footer .footer-item li {
+  padding: 7px 0;
+}
+/* line 49, ../sass/layout/_footer.scss */
+footer .footer-item li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 300;
+}
+/* line 53, ../sass/layout/_footer.scss */
+footer .footer-item li a:hover {
+  color: #bb9c40;
+}
+/* line 58, ../sass/layout/_footer.scss */
+footer .footer-item .footer-mailto {
+  color: #bb9c40;
+  display: block;
+  margin-top: 20px;
+  text-decoration: none;
+}
+/* line 64, ../sass/layout/_footer.scss */
+footer .footer-item p {
+  color: #bb9c40;
+  margin-bottom: 10px;
+  font-weight: 300;
+}

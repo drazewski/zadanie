@@ -1,0 +1,72 @@
+@import "base/variables";
+
+header {
+	font-family: 'Open Sans', sans-serif;
+	position: fixed;
+	width: 100%;
+	z-index: 2;
+	color: #fff;
+
+	.header-top {
+		height: 34px;
+		font-size: 12px;
+		line-height: 34px;
+		background-color: $light_brown;
+		width: 100%;
+
+		.header-top-content {
+
+			i {
+			padding: 3px;
+			}
+
+			.span{
+				padding: 10px;
+
+			}
+			
+			.header-top-content-icons {
+				display: inline;
+				padding: 0 10px;
+			}
+			.header-top-content-basket{
+				float: right;
+			}
+		}
+	}
+	.header{
+		background-color: rgba(0,0,0,0.4);
+		height: 87px;
+		font-size: 14px;
+		line-height: 87px;
+
+		.logo {
+			float: left;
+
+			img {
+				vertical-align: middle;
+			}
+		}
+
+		.header-nav {
+			float: right;
+
+			li {
+				display: inline;
+				padding: 0 10px;
+				font-weight: bold;
+
+				a:hover {
+					color: #bb9c40;
+					text-decoration: none;
+				}
+			}
+
+			li.active {
+				color: $light_brown;
+			}
+
+		}
+	}
+}
+

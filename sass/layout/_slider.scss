@@ -1,0 +1,24 @@
+.slider {
+	display: table;
+	background-image: url(../img/slider.jpg);
+    background-size: cover;
+    height: 715px;
+    width: 100%;
+    
+    .slider-chevron {
+    	display: table-cell;
+    	width: 100%;
+    	vertical-align: middle;
+    	color: #fff;
+    	font-size: 50px;
+    	padding: 0 20px;
+
+    	.fa-chevron-left {
+    		float: left;
+    	}
+
+    	.fa-chevron-right {
+    		float: right;
+    	}
+    }
+}

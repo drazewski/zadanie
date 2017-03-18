@@ -1,0 +1,32 @@
+section.main {
+	background-color: #fff;
+	
+	.main-content-wrapper {
+		padding: 100px 0;
+
+		h2 {
+			font-size: 30px;
+			line-height: 36px;
+			padding-bottom: 50px;
+		}
+
+		p {
+			line-height: 20px;
+			font-weight: 300;
+		}
+	}
+
+	.main-content-itemlist {
+		padding: 100px 20px;
+		width: 80%;
+    	margin: auto;
+
+		ul {
+			list-style: inherit;
+
+			li {
+				padding: 0 5px;
+			}
+		}
+	}
+}
